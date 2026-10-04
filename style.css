@@ -1,0 +1,125 @@
+/* =========================
+   Global
+   ========================= */
+
+body {
+    
+    font-family: 'Google Sans', Courier, monospace;
+    margin: 0;
+    
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+}
+
+.container {
+    width: 80vw;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* =========================
+   One
+   ========================= */
+
+.section_one {
+    background-color: #00331b;
+    color: #d3ffea;
+}
+    
+section {
+  margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+    padding: 16px 0px;
+    
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header-link-wrapper {
+    display: flex;
+    gap: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+}
+
+.hero {
+    display: flex;
+    padding: 64px 0px 64px 0px;
+    gap: 32px;
+    
+}
+.hero h1 {
+    font-size: 36px;
+    line-height: 30px;
+    margin: 16px 0px;
+}
+
+.hero p {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.hero-image-wrapper {
+display: flex;
+flex-direction: column;
+gap: 0px;
+}
+
+.hero-image {
+    width: 420px;
+    margin: 0;
+    border-radius: 16px;
+    
+}
+
+.image-credits a{
+    color: greenyellow;
+    margin: 0;
+}
+
+.image-credits {
+    margin-top: 8px;
+    text-align: right;
+}
+
+.button-primary {
+    padding: 8px 24px;
+    background-color: rgb(58, 252, 84);
+    border-radius: 12px;
+    border-style: none;
+    font-weight: 700;
+    color: rgb(37, 39, 37);
+    margin-top: 12px;
+}
+
+   /* =========================
+   Two
+   ========================= */
+
+   .section_two {
+    background-color:  #eff4f1;
+    color: #00331b;
+}
+
+   /* =========================
+   Three
+   ========================= */
+
+   /* =========================
+   Four
+   ========================= */
